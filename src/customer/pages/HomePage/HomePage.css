@@ -1,0 +1,40 @@
+.banner{
+    background-image: url("https://english-blog.s3.amazonaws.com/uploads/2019/07/12-Best-Anti-Aging-Foods-That%E2%80%99ll-Save-Your-Skin-12.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+
+.cover{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    opacity: .4;
+}
+
+.fadout{
+    background-color: initial;
+    background-image: linear-gradient(
+        180deg,
+        hsla(0,0%,8%,0) 0,
+        hsla(0,0%,8%,0.15) 15%,
+        hsla(0,0%,8%,0.35) 29%,
+        hsla(0,0%,8%,0.58) 44%,
+        #131313 68%,
+        #0D0D0D0D
+    );
+    
+    background-position: 0 top;
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    bottom: -3rem;
+    height: 10vw;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 20;
+
+}
